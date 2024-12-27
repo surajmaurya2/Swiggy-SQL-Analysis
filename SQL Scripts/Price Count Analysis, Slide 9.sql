@@ -1,0 +1,12 @@
+SELECT
+  CASE
+    WHEN Price BETWEEN 0 AND 200 THEN '0-200'
+    WHEN Price BETWEEN 201 AND 400 THEN '201-400'
+    WHEN Price BETWEEN 401 AND 600 THEN '401-600'
+    WHEN Price BETWEEN 601 AND 800 THEN '601-800'
+    ELSE '800+'
+  END AS Price_Range,
+  COUNT(*) AS Restaurant_Count
+FROM Swiggy
+GROUP BY Price_Range
+ORDER BY Price_Range;
