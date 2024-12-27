@@ -25,7 +25,7 @@ You can then run the SQL queries in the sql/ folder on your database.
 **Usage**
 Once the database is set up with the appropriate data, you can run the SQL scripts in the sql/ folder to gain insights into various aspects of Swiggy's business operations. The analyses include customer behaviors, restaurant performance, and order patterns.
 
-**SQL Files**
+## SQL-Files
 The following SQL files are included in the project:
 
     Create Table
@@ -54,12 +54,12 @@ The file contains an SQL query that calculates two metrics for each city:
 
 and many more
 
-**Presentation**
+## Presentation
 
 Swiggy_SQL_Project.pptx: A PowerPoint presentation summarizing the insights derived from the SQL analysis. It includes visualizations and key findings for better understanding.
 Swiggy SQL Project.pdf: The same presentation as the PPTX version, but in PDF format for easier sharing and viewing.
 
-**Contributing**
+## Contributing
 Contributions are welcome! If you'd like to improve the analysis, suggest new queries, or fix any issues, feel free to fork the repository and submit a pull request.
 
 Steps to contribute:
@@ -69,8 +69,8 @@ Create a new branch for your changes.
 Make your modifications and commit them with a detailed message.
 Push to your forked repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+**Contact**
 For inquiries or feedback, feel free to reach out at: surajmaurya2777@gmail.com
